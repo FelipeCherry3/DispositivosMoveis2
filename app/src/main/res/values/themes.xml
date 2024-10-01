@@ -6,4 +6,29 @@
     </style>
 
     <style name="Theme.AtividadeDM2" parent="Base.Theme.AtividadeDM2" />
+
+    <!-- Tema principal da aplicação -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Aplica o estilo de botão global -->
+        <item name="buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <!-- Estilo personalizado para os botões -->
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <!-- Fundo personalizado -->
+        <item name="android:background">@drawable/button_background</item>
+
+        <!-- Texto branco, tamanho e espaçamento -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+
+        <!-- Texto em caixa baixa e centralizado -->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
 </resources>

@@ -26,8 +26,9 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         List<Local> localList = new ArrayList<>();
-        localList.add(new Local("Zoológico", R.drawable.zoo, "Descrição do Zoológico", "https://maps.app.goo.gl/GcUC3y9NZKtu8hLT6", "https://site_zoologico", "123456789"));
-        localList.add(new Local("Iguatemi", R.drawable.iguatemi, "Shopping da Cidade", "https://maps.app.goo.gl/bC36ZwYFDgbTuaki6", "https://site_zoologico", "123456789"));
+        localList.add(new Local("Zoológico", R.drawable.zoo, "Descrição do Zoológico", "https://maps.app.goo.gl/GcUC3y9NZKtu8hLT6", "https://site_zoologico", "123456789", R.drawable.quinzinho2));
+        localList.add(new Local("Iguatemi", R.drawable.iguatemi, "Shopping da Cidade", "https://maps.app.goo.gl/bC36ZwYFDgbTuaki6", "https://site_zoologico", "123456789", R.drawable.iguatemi2));
+        localList.add(new Local("Prefeitura", R.drawable.prefeitura, "Prefeitura da Cidade", "https://maps.app.goo.gl/DvMiAJKWiF77GWor7", "01532382100", "http://www.sorocaba.sp.gov.br/", R.drawable.prefeitura2));
         // Adicione os outros locais
 
         LocalAdapter adapter = new LocalAdapter(localList, this);

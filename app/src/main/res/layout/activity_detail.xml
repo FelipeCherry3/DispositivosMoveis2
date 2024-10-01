@@ -34,20 +34,20 @@
 
         <Button
             android:id="@+id/buttonVerMapa"
-            android:layout_width="wrap_content"
+            android:layout_width="337dp"
             android:layout_height="wrap_content"
-            android:text="Ver no Mapa"/>
+            android:text="Ver no Mapa" />
 
         <Button
             android:id="@+id/buttonAbrirSite"
-            android:layout_width="wrap_content"
+            android:layout_width="338dp"
             android:layout_height="wrap_content"
-            android:text="Abrir Site"/>
+            android:text="Abrir Site" />
 
         <Button
             android:id="@+id/buttonTelefonar"
-            android:layout_width="wrap_content"
+            android:layout_width="339dp"
             android:layout_height="wrap_content"
-            android:text="Telefonar"/>
+            android:text="Telefonar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

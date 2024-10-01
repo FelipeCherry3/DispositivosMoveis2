@@ -9,6 +9,7 @@ public class Local implements Serializable {
     private String mapUrl;
     private String phone;
     private String site;
+    private int imagem2;
 
     public Local(String nome) {
         this.nome = nome;
@@ -21,6 +22,24 @@ public class Local implements Serializable {
         this.mapUrl = mapUrl;
         this.phone = phone;
         this.site = site;
+    }
+
+    public Local(String nome, int imageResourceId, String descricao, String mapUrl, String phone, String site, int imagem2) {
+        this.nome = nome;
+        this.imageResourceId = imageResourceId;
+        this.descricao = descricao;
+        this.mapUrl = mapUrl;
+        this.phone = phone;
+        this.site = site;
+        this.imagem2 = imagem2;
+    }
+
+    public int getImagem2() {
+        return imagem2;
+    }
+
+    public void setImagem2(int imagem2) {
+        this.imagem2 = imagem2;
     }
 
 

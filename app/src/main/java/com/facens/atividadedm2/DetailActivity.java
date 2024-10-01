@@ -32,6 +32,7 @@ public class DetailActivity extends AppCompatActivity {
         Local local = (Local) getIntent().getSerializableExtra("local");
         textViewDescription.setText(local.getDescricao());
         imageViewDetail1.setImageResource(local.getImageResourceId());
+        imageViewDetail2.setImageResource(local.getImagem2());
 
         buttonVerMapa.setOnClickListener(v -> {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(local.getMapUrl()));
